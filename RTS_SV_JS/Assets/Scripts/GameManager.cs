@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
             endGamePanel.SetActive(true);
             endGamePanel.SendMessage("SetWonPanel");
         }
-        if(lostGame)
+        if(lostGame && !endGamePanel.activeInHierarchy)
         {
             //wonGame = false;
             Debug.Log("GOGOGO");

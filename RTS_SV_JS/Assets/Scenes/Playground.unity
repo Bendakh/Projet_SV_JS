@@ -9515,6 +9515,161 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cea44c0bcfca5364fae1164ae7b89dd3, type: 3}
+--- !u!1 &1364091573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1364091574}
+  - component: {fileID: 1364091576}
+  - component: {fileID: 1364091575}
+  m_Layer: 5
+  m_Name: SomeInformation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1364091574
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364091573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1619963316}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 206}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1364091575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364091573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Did you know? '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 14
+  m_fontSizeBase: 14
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -293.77454, y: -81.93619, z: -295.5879, w: -168.6483}
+  m_textInfo:
+    textComponent: {fileID: 1364091575}
+    characterCount: 14
+    spriteCount: 0
+    spaceCount: 3
+    wordCount: 3
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1364091576
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364091573}
+  m_CullTransparentMesh: 0
 --- !u!1 &1372650277
 GameObject:
   m_ObjectHideFlags: 0
@@ -10765,6 +10920,7 @@ RectTransform:
   m_Children:
   - {fileID: 811577510}
   - {fileID: 1779762102}
+  - {fileID: 1364091574}
   m_Father: {fileID: 1458748773}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10823,6 +10979,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endGameTitle: {fileID: 811577511}
   endGameParagraph: {fileID: 1779762103}
+  someInformation: {fileID: 1364091575}
+  randomTextArray:
+  - "Fresh water is a renewable resource, but somehow, the world\u2019s supply of
+    groundwater is being depleted at an alarming rate. We use water for so many of
+    our activities \u2013 in the household, in agriculture to grow crops and animals,
+    during recreation, in the factories \u2013 most of our activities require freshwater.
+    Only a very small percentage of our water supply is used for drinking.\r\n\r\nFreshwater
+    can be found either in the surface or underground. On the surface, it\u2019s found
+    on rivers and lakes. It\u2019s replenished when it rains and it is depleted through
+    evaporation.\r\n\r\nGroundwater is located beneath the earth, between soil and
+    rocks. This is where we get our water supply at home.\r\n\r\nFrozen freshwater,
+    is found in glaciers, icebergs and in the polar icecaps. The problem is due to
+    global warming, these valuable sources are melting. If they all melt, that would
+    severely deplete our sources of freshwater.\r\n\r\nSo many people today have no
+    access to fresh drinking water. Help conserve this precious resource by closing
+    your faucets when not in use and recycling water where you can. "
+  - "Trees provide oxygen to the planet and these magnificent resource gives us shade.
+    It keeps cities from flooding and absorb the carbon dioxide in the air. Unfortunately,
+    it was also used to make paper and is a highly coveted resource. Not just the
+    trees, but the land itself. As our cities grew, we chopped down acres of forest
+    to clear the land.\r\n\r\nIt is said that by 2030, we may only have 10% of our
+    rainforests left. Just imagine what happens to all the living things in the forest.
+    Whole ecosystems die when we clear an area. To date, over 13 million hectares
+    of forests have been converted for other uses. Can you imagine our world without
+    trees?\r\n\r\nTo help save trees, reuse and recycle paper, or don\u2019t use them
+    at all. Many companies and individuals are going paperless to save our rainforests. "
+  - "When you hear that we are using up the natural resources of our planet, and that
+    we need 1 \xBD Earths to sustain our current population of 7 billion people, what
+    do they mean?\r\n\r\nNatural resources are everything that is provided for us
+    by nature. They are not made by man. They can either be renewable or non-renewable.
+    We call it a renewable resource if it grows again or comes back after we use it.
+    A non-renewable resource does not grow or come back, or it takes a very long time
+    before it is replenished.\r\n\r\nRead more about what our natural resources are,
+    their state and how we can all help preserve it. Once you know how dependent we
+    are on nature, you\u2019ll realize how important these resources are to the welfare
+    of all living things on Earth."
 --- !u!1 &1620358581
 GameObject:
   m_ObjectHideFlags: 0
@@ -12697,7 +12889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 25}
+  m_AnchoredPosition: {x: 0, y: 201}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779762103
@@ -12784,7 +12976,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -195.89584, y: -293.7455, z: -218.74268, w: 0}
+  m_margin: {x: -195.89584, y: -190.38046, z: -218.74268, w: 119.68594}
   m_textInfo:
     textComponent: {fileID: 1779762103}
     characterCount: 18
