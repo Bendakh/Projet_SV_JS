@@ -20,7 +20,7 @@ public class BuildMenu : MonoBehaviour
     private int forestCost = 20;
     [SerializeField]
     private GameObject citizenPrefab;
-    private Vector3 citizenSpawnPosition = new Vector3(15, -22, -1);
+    private Vector3 citizenSpawnPosition = new Vector3(78.88f, -84.85f, -1);
     // Start is called before the first frame update
     void Start()
     {

@@ -29,6 +29,7 @@ public class DropPoint : MonoBehaviour
     void Update()
     {
         CheckCapacity();
+        LimitCapacity();
     }
 
     private void CheckCapacity()
@@ -44,6 +45,13 @@ public class DropPoint : MonoBehaviour
         {
             isFull = false;
         }
+    }
+
+    private void LimitCapacity()
+    {
+        woodQuantity = Mathf.Clamp(woodQuantity, 0, woodMaxCapacity);
+        animalQuantity = Mathf.Clamp(animalQuantity, 0, animalMaxCapacity);
+        vegetalQuantity = Mathf.Clamp(vegetalQuantity, 0, vegetalQuantity);
     }
 
     public void SetRessource(int[] ressources)
